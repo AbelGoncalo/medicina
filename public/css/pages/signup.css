@@ -1,0 +1,65 @@
+/*buttom signup */
+
+#signup {
+    background-color: #3fbbc0;
+    color: #fff;
+    transition: background .4s;
+}
+
+#signup:hover {
+    background-color: #454545;
+}
+
+#container_btn {
+    display: flex;
+    justify-content: end;
+}
+
+
+/*End*/
+
+
+/*Container form sign up*/
+
+.form_signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_signup form,
+.mostrar {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Campos */
+
+.field {
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+/*end*/
+
+
+/*btn submit form user*/
+
+#btn_submit,
+#btn_update,
+.btn_save_photo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #3fbbc0;
+    color: #fff;
+    transition: background-color .4s;
+}
+
+#btn_submit:hover,
+#btn_update:hover,
+.btn_save_photo:hover {
+    background-color: #454545;
+    color: #fff
+}

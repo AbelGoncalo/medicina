@@ -1,0 +1,52 @@
+.perfil-usuario {
+    margin: 10rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*Estilizando imagem de perfil*/
+
+.image {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.image>button {
+    margin-top: .5rem;
+    width: 200px;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+
+/*------------------------------**/
+
+#btn_salvar_senha button {
+    margin-top: 4rem;
+    width: 100%;
+}
+
+#btn_apagar_conta {
+    background-color: #c9302c;
+    color: #fff;
+    transition: .4s;
+}
+
+#btn_apagar_conta:hover {
+    background-color: #454545;
+    color: #fff;
+}
+
+.form_actualizar_perfil form {
+    margin-bottom: 5rem;
+}
+
+.apagar_conta {
+    margin-top: 5rem;
+}

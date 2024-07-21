@@ -1,0 +1,10 @@
+.form_marcar_consuta{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.btn_marcar_consulta button{
+    width: 100%;
+    margin: 1rem 0;
+}

@@ -1,0 +1,64 @@
+@media (max-width:996px){
+   .field{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    } 
+    
+    .form_signup form{
+        
+        width: 100%;
+    }
+    #signup{
+        width: 100%;
+    }
+} 
+
+/* tamanho móvel*/
+@media screen and (max-width:760px) {
+    .dados_pessoais{
+        flex-flow: wrap column;
+        text-align: center;
+        font-size: 16px;
+    }
+    .outros_historico{
+         flex-flow: wrap column;
+         margin-top: 1rem;
+    }
+
+    .historico_familiar_saude{
+        margin: 2rem 0;
+    }
+    .historico_familiar_saude ul,.dados_medico ul,h4,span,p {
+        font-size: 14px;
+        text-align: center;
+        line-height: normal;
+
+    }
+
+}
+
+@media screen and (max-width:726px  ) {
+    .dados_pessoais{
+        flex-flow: wrap column;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+
+/*Perfil de usuario*/
+@media screen and (max-width:760px  ) {
+    .perfil-usuario{
+        flex-flow: wrap column;
+        font-size: 14px;
+    }
+     .perfil-usuario h3{
+         text-align: center;
+         margin-top: 1rem;
+     }
+     #btn_apagar_conta{
+        margin-left: 6rem ;
+     }
+}

@@ -1,0 +1,95 @@
+/*Media queries*/
+
+@import url('pages/media.css');
+
+/*Form login style*/
+
+
+/*bootstrap 5*/
+
+@import url('pages/bootstrap.min.css');
+
+/**/
+
+@import url('pages/login.css');
+
+/*Form signup style*/
+
+@import url('pages/signup.css');
+
+/* Formulario de marcacao de consulta */
+
+@import url('pages/marcar_consulta.css');
+
+/*Registro clinico de utente*/
+
+@import url('pages/registro_clinico.css');
+
+/* Profile*/
+
+@import url('pages/profile.css');
+
+/* Header custom */
+
+#header_custom {
+    margin-top: -5rem;
+}
+
+
+/*Foto de Perfil*/
+
+#foto_perfil {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.foto-perfil-medico {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+}
+
+.box h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+/*lita alergia*/
+
+.lista-alergia,
+.grupo-sanguinio {
+    margin-top: 3.2rem;
+}
+
+#buscar {
+    width: 35rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form_redefinir {
+    margin-top: 50000rem
+}
+
+#btns {
+    display: flex;
+}
+
+#btns>a {
+    margin-left: 1rem;
+}
+
+#relatorio {
+    margin-left: 35rem;
+}

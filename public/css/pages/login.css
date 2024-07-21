@@ -1,0 +1,42 @@
+ /*Section Form Login*/
+ 
+ .form_login {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 16px;
+ }
+ 
+ .form_login form {
+     margin-top: 18rem;
+ }
+ 
+ .form_login h3 {
+     color: #3fbbc0;
+ }
+ 
+ .form_login hr {
+     border-bottom: 1px solid #3fbbc0;
+ }
+ 
+ .form_login input:focus {
+     outline: #3fbbc0;
+ }
+ 
+ .form_login input[type="checkbox"] {
+     margin-top: 1rem;
+ }
+ /* Buttom Logar*/
+ 
+ #btn-logar {
+     background-color: #3fbbc0;
+     color: #fff;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     width: 100%;
+     transition: background .4s;
+ }
+ 
+ #btn-logar:hover {
+     background-color: #454545;
+ }
